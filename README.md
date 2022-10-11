@@ -1,6 +1,6 @@
 Olá pessoal tudo bem?
 
-Esses dias eu estava lembrando de um jogo que jogava na infancia chamado Devil Fight 2, era um jogo flash, com mecanicas simples e combate de turno, existia um chat global, que era um bom passatempo na época da internet discada.
+Esses dias eu estava lembrando de um jogo que jogava na infancia chamado Devil Fight 2 - A Rebelião, era um jogo flash, com mecanicas simples e combate de turno, existia um chat global, que era um bom passatempo na época da internet discada.
 
 Infelizmente não existem muitas coisas sobre o jogo, até as imagens estão em uma qualidade horrível, devido a época, e os videos são quase inexistentes.
 
