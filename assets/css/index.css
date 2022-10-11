@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#hud {
+  width: 100%;
+}
+
+.mot-hud {
+  display: flex;
+  flex-direction: row;
+}
+
+.chat-hud {
+}
+#chat1 {
+  width: 20%;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 2.5%;
+}
+
+#textura {
+  z-index: -1;
+  width: 100%;
+}
+
+.text-save-button {
+  position: absolute;
+  margin-left: 5%;
+  width: 90%;
+  bottom: 25%;
+  border-radius: 0;
+  height: 30px;
+  background-color: #31210aa1;
+  color: white;
+  border-color: #3d290d;
+}
+
+.textura-div {
+  position: absolute;
+  bottom: 0;
+  width: 24%;
+}
+
+.text-chat {
+  position: absolute;
+  z-index: 9999;
+  bottom: 60%;
+  margin-left: 5%;
+  width: 90%;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  height: 30px;
+}
+
+.text-box-tes {
+  position: absolute;
+  color: white;
+  top: 0;
+  padding-top: 10px;
+  width: 24%;
+  bottom: 0;
+}
+
+.user-name {
+  font-size: 11px;
+  color: #825d4f;
+  margin-right: 5px;
+}
+.user-hour {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.user-chat {
+  font-size: 13px;
+}
+
+.row-box {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 15px;
+  margin-right: 10px;
+}

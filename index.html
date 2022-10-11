@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <script src="p5.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <div class="mot-hud">
+      <div>
+        <main></main>
+        <img id="hud" src="./assets/hud.jpg" />
+      </div>
+      <div class="chat-hud">
+        <img id="chat1" src="./assets/chat-1.jpg" />
+        <div class="textura-div">
+          <img id="textura" src="./assets/textura.jpg" />
+          <div>
+            <input class="text-chat" />
+            <button class="text-save-button">Enviar</button>
+          </div>
+        </div>
+        <div class="text-box-tes">
+          <div class="row-box">
+            <span class="user-hour">22:30</span>
+            <span class="user-name">yan</span>
+            <span class="user-chat">Olá! </span>
+          </div>
+          <div class="row-box">
+            <span class="user-hour">22:30</span>
+            <span class="user-name">yan</span>
+            <span class="user-chat"> Isso não é um jogo. </span>
+          </div>
+          <div class="row-box">
+            <span class="user-hour">22:30</span>
+            <span class="user-name">yan</span>
+            <span class="user-chat">
+              É só uma reprodução da atmosfera do jogo
+              <b>Devil Fight 2 - A Rebelião</b>
+            </span>
+          </div>
+
+          <div class="row-box">
+            <span class="user-hour">22:30</span>
+            <span class="user-name">yan</span>
+            <span class="user-chat">
+              Que fez um pequeno sucesso nos anos de 2010/2011, mas seus
+              servidores foram encerrados por volta de 2016.
+            </span>
+          </div>
+
+          <div class="row-box">
+            <span class="user-hour">22:30</span>
+            <span class="user-name">yan</span>
+            <span class="user-chat">
+              Infelizmente, existem poucas midias (imagens, videos e etc.) do
+              jogo atualmente, então resolvi fazer uma reprodução me baseando em
+              alguns prints, para manter um pouco de sua memória.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("hud").style.width =
+        window.innerWidth - window.innerWidth / 4;
+
+      document.getElementById("textura").style.height =
+        document.getElementById("hud").offsetHeight + 10;
+    </script>
+  </body>
+</html>
